@@ -1,0 +1,28 @@
+body{
+	background-image:url("IMG/bckgrnd.jpg");
+	background-size: cover;
+}
+p, h1, h2, h3{
+	font-family: retro;
+	color:black;
+}
+p{
+	font-size: 20px;
+	
+}
+tr, th, td{
+	border:solid black ;
+}
+@font-face{
+	font-family: retro;
+    src: url(fonts/EnchantedLand.otf);
+}
+
+.sobremi{
+	width: 30%;
+	justify-content: flex-start;
+	text-align: justify;
+}
+.table{
+	padding-bottom: 20px;
+}
