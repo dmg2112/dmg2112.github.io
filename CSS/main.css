@@ -1,0 +1,62 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	background-image:url("IMG/bckgrnd.jpg");
+	background-size: cover;
+}
+p, h1, h2, h3{
+	font-family: retro;
+	color:black;
+}
+
+
+
+p{
+	font-size: 20px;
+	
+}
+tr, th, td{
+	border:solid black;
+}
+@font-face{
+	font-family: retro;
+    src: url(fonts/EnchantedLand.otf);
+}
+.sobremi{
+	width: 30%;
+	justify-content: flex-start;
+	text-align: justify;
+}
+.table{
+	padding-bottom: 20px;
+}
+
+.table1{
+	position:relative;
+	left:10%;
+}
+				
+				
+.navbar {
+    list-style-type: none;
+    position: absolute;
+    border: 10px solid transparent;
+    border-image:url("IMG/border.png") 6.5% round;
+    right:5%;
+    width: 25%;
+    background-color:none;
+    height: 35%;
+    padding: 0;
+}
+.insidenav{
+	background-image: url(IMG/navbarback.jpg);
+    background-size:cover;
+    height: 100%;
+    position: relative;
+    top: -6.5%
+}
+a.navlink{
+	 color:#ffffe6
+}
